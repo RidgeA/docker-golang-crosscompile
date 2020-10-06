@@ -30,4 +30,8 @@ cd <your_project_dir>
 docker run -it --rm -v $PWD:/go/package/app go-crosscompile -buildmode=c-shared -o=out.dll ./cmd/main.go
 ```
 
-#
+## Links
+* https://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5
+* https://github.com/golang/go/wiki/WindowsCrossCompiling
+* https://community.vega.xyz/t/devblog-cross-compiling-vega-with-go-cgo-and-xgo/206
+* https://github.com/vegaprotocol/xgo
